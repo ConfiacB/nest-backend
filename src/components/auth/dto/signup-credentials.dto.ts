@@ -18,6 +18,7 @@ export class SignupCredentialsDto {
     )
     password: string
 
+    @ApiProperty({ example: true })
     @IsBoolean()
     admin: boolean
 }
