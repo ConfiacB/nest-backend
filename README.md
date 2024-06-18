@@ -1,3 +1,35 @@
+# NestJS Backend
+Technologies : NestJS, TypeScript, TypeORM, MySQL, REST API
+With Postman Desktop
+
+# Implementation
+- Login and register using JWT and bcrypt
+- CRUD REST API
+- AWS S3 to store an image
+- MySQL database with 2 tables user and posts
+- Sorting
+- Search
+
+# .env
+
+```
+DATABASE_HOST='localhost'
+DATABASE_PORT=3306
+DATABASE_USER='root'
+DATABASE_PASSWORD='your_password'
+DATABASE_NAME='your_database_name'
+JWT_SECRET='your_jwt_secret'
+APP_PORT=3000
+AWS_ACCESS_KEY='access_key'
+AWS_SECRET_ACCESS_KEY='secret_access_key'
+```
+
+# Start app
+- create MySQL database and .env (database tables are made automatically)
+- ```npm run start:dev```
+- http://localhost:3000/api to have documentation about routes
+- Use Postman to manipulate the API and Database
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
