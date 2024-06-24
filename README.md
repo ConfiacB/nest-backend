@@ -1,5 +1,5 @@
 # NestJS Backend
-Technologies : NestJS, TypeScript, TypeORM, MySQL, REST API
+Technologies : NestJS, TypeScript, AWS S3, TypeORM, MySQL, REST API
 With Postman Desktop
 
 # Implementation
